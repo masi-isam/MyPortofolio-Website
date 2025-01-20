@@ -1,0 +1,170 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    #galeri .card {
+        max-width: 300px; /* Perbesar kartu */
+    }
+
+    #galeri .card img {
+        max-width: 300px; /* Perbesar gambar */
+    }
+}
+
+@media (screen) and (max-width: 1200px) {
+    #hero {
+        padding-top: 100px;
+        
+    }
+    #hero h1 {
+        font-size: 43px;
+    }
+
+    #aboutme p {
+        text-align: justify !important;
+    }
+
+    #sertifikat img {
+        width: 45%;
+        padding: 10px;
+        
+    }
+
+    #galeri img {
+        width: 250px;
+        border-radius: 10px;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #galeri .card {
+        max-width: 300px; /* Perbesar kartu */
+      
+    }
+
+    #galeri .card img {
+        max-width: 300px; /* Perbesar gambar */
+    }
+
+    #galeri .col-sm-8 {
+        flex: 0 0 33.33%; /* Kolom mengambil 33.33% lebar */
+        max-width: 33.33%; /* Batas maksimal lebar kolom */
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    #hero {
+        padding-top: 150px;
+        transition: margin-top 0.3s ease;
+        text-align: start;
+        
+    }
+    #hero h1 {
+        font-size: 32px;
+    }
+
+    #hero p {
+        font-size: 14px;
+    }
+
+    #hero img {
+        width: 80%;
+    } 
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    #hero {
+        padding-top: 50px;
+        transition: margin-top 0.3s ease;
+        text-align: center;
+        
+    }
+
+    #hero .row {
+        position: relative;
+        padding-bottom: 130px;
+    }
+
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #hero h1 {
+        font-size: 32px;
+    }
+
+    #hero img {
+        width: 60%;
+        box-shadow: 4px 4px 4px rgba(0.5, 0.5, 0.5, 0.5);
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .btn-custom {
+        background-color: var(--acsentColor);
+        width: 80%;
+    }
+
+    #sertifikat img {
+        width: 100%;
+        padding: 5px;
+    }
+
+    
+
+    
+}
+
+
+@media screen and (max-width: 668px) {
+    #hero {
+        padding-top: 70px;
+    }
+    #hero h1 {
+        font-size: 30px;
+    }
+    #hero p {
+        font-size: 14px;
+        
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 387px) {
+    #hero {
+        padding-top: 70px;
+    }
+    #hero h1 {
+        font-size: 30px;
+    }
+    #hero p {
+        font-size: 14px;
+        
+    }
+
+ 
+}
+
+@media screen and (max-width: 367px) {
+    #hero {
+        padding-top: 70px;
+    }
+    #hero h1 {
+        font-size: 25px;
+    }
+    #hero p {
+        font-size: 10px;
+        
+    }
+    #hero a {
+        font-size: 10px;
+        
+    }
+
+
+ 
+}

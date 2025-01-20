@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) {
+
+    #skills .card {
+        font-size: 15px;
+    
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    
+    #skills .card {
+        height: 300px;
+    
+    }
+
+    #skills .svg-mainkills {
+        margin-left: 0px;
+    }
+    #skills .svg-mainkills2 {
+        margin-left: 0px;
+    }
+
+    #sertifikat {
+        margin-top: -80px;
+        min-height: 40vh;
+        padding-top: 60px;
+    }
+
+    /* #sertifikat {
+        margin-top: -270px;
+        min-height: 100vh;
+        color: #ffff;
+        background-color: var(--secondaryColor);
+        padding-top: 250px;
+        padding-bottom: 50px;
+    } */
+
+}

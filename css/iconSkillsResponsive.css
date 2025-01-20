@@ -1,0 +1,106 @@
+@media screen and (max-width: 796px) {
+
+
+    #skills .skills-svg1 svg{
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    
+    #skills .skills-svg2 svg{
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 668px) {
+
+    #skills .skills-svg1 svg{
+        width: 80px;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    #skills .skills-svg2 svg{
+        width: 80px;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    #skills  .svg-php {
+        width: 110px;
+    }
+    
+    #skills .svg-microsoft {
+        width: 110px;
+    }
+    
+    #skills .svg-canva {
+        width: 130px;
+    }
+
+}
+
+@media screen and (max-width: 668px) {
+
+    #skills .skills-svg1 svg{
+        width: 80px;
+        margin-right: 0.7rem;
+        margin-left: 0.7rem;
+        margin-bottom: 30px;
+    }
+    
+    #skills .skills-svg2 svg{
+        width: 80px;
+        margin-right: 0.7rem;
+        margin-left: 0.7rem;
+        margin-bottom: 30px;
+    }
+    
+    #skills  .svg-php {
+        width: 110px;
+    }
+    
+    #skills .svg-microsoft {
+        width: 110px;
+    }
+    
+    #skills .svg-canva {
+        width: 130px;
+    }
+
+}
+
+@media screen and (max-width: 319px) {
+
+    #skills .skills-svg1 svg{
+        width: 60px;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 30px;
+    }
+    
+    #skills .skills-svg2 svg{
+        width: 60px;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 30px;
+    }
+    
+    #skills  .svg-php {
+        width: 90px;
+    }
+    
+    #skills .svg-microsoft {
+        width: 90px;
+    }
+    
+    #skills .svg-canva {
+        width: 110px;
+    }
+
+}

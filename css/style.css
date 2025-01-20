@@ -1,0 +1,272 @@
+:root {
+    --mainColor : #262533;
+    --secondaryColor : #333646;
+    --acsentColor : #F9CC41;
+}
+
+
+body {
+    background-color: var(--mainColor);
+
+    font-family: 'ubuntu', sans-serif;
+}
+
+.nav-brand {
+    color: #ffff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+
+.nav-dark {
+    background-color: rgba(51, 54, 70, 0.9) !important;
+    z-index: 2;
+    transition: 0.9s;
+}
+.nav-brand:hover {
+    color: var(--acsentColor);
+}
+/* Navbar */
+.nav-brand.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+/* End Navbar */
+
+/* Hero Section */
+
+#hero {
+    color: #ffff;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+#hero img {
+    box-shadow: 4px 4px 4px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 50%;
+}
+
+#hero h1 {
+    font-size: 50px;
+}
+
+#hero p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.spanhero {
+    color: var(--acsentColor);
+    font-weight: 700;
+}
+
+/* CV on hero section */
+
+.btn-custom {
+    color: var(--mainColor);
+    background-color: var(--acsentColor);
+    width: 200px;
+}
+
+.btn-custom:hover{
+    background-color: var(--secondaryColor);
+}
+
+.cv {
+    color: #ffff;
+    cursor: pointer;
+}
+
+.social-icon svg{
+    margin-right: .7rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+/* End Hero Section */
+
+/* About Section */
+
+#aboutme hr {
+    width: 30%;
+    height: 3px;
+    opacity: 70;
+    border-radius: 50px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+}
+
+#aboutme {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #ffff;  
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+
+/* End About Section */
+
+/* Section Skills */
+#skills {
+    min-height: 100px;
+    width: 100%;
+    color: #ffff;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#skills hr {
+    width: 30%;
+    height: 3px;
+    opacity: 70;
+    border-radius: 50px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+}
+
+#skills .skills-svg1 svg{
+    width: 100px;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#skills  .svg-php {
+    width: 130px;
+}
+
+#skills .svg-microsoft {
+    width: 130px;
+}
+
+#skills .svg-canva {
+    width: 150px;
+}
+
+
+
+#skills .card:hover {
+    background-color: var(--acsentColor);
+}
+
+#skills .card {
+    height: 350px;
+    background-color: #434343;
+    margin-top: 50px;
+    box-shadow: 4px 4px 4px rgba(0.5, 0.5, 0.5, 0.5);
+
+}
+
+#skills .svg-mainkills {
+    margin-left: -15px;
+}
+
+#skills .svg-mainkills2 {
+    margin-left: -20px;
+}
+
+
+/* End Section Skills */
+
+/* Section Sertifkat */
+
+#sertifikat {
+    margin-top: -270px;
+    min-height: 100vh;
+    color: #ffff;
+    background-color: var(--secondaryColor);
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+#sertifikat hr {
+    width: 40%;
+    height: 3px;
+    opacity: 70;
+    border-radius: 50px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+}
+
+#sertifikat img {
+    width: 500px;
+    padding: 10px;
+    
+}
+
+.lengkapnya p, a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: smaller;
+}
+
+.lengkapnya a:hover {
+    color: var(--acsentColor);
+}
+
+/* End Section Sertifkat */
+
+
+/*  Section Galeri */
+
+#galeri hr {
+    width: 40%;
+    height: 3px;
+    opacity: 70;
+    border-radius: 50px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+}
+
+#galeri {
+    min-height: 90vh;
+    color: #ffff;
+    background-color: var(--mainColor);
+    padding-top: 85px;
+}
+
+#galeri .card {
+    background-color: #5e5c5c;
+    border-radius: 10px;
+
+}
+
+#galeri .card img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+
+#galeri .card-img-top {
+    min-height: 100%;
+}
+
+
+/* End Section Galeri */
+
+
+/* Footer */
+
+.footer {
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.social-icon-footer svg {
+    color: #ffff;
+    margin-right: .7rem;
+    cursor: pointer;
+    
+}
+
+
+/* End Footer */
