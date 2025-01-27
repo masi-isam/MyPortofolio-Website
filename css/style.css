@@ -15,7 +15,7 @@ body {
     color: #ffff;
     text-decoration: none;
     margin-bottom: 20px;
-    
+      
 }
 
 .nav-dark {
@@ -103,8 +103,8 @@ body {
     width: 100%;
     background-color: var(--secondaryColor);
     color: #ffff;  
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -117,7 +117,7 @@ body {
     min-height: 100px;
     width: 100%;
     color: #ffff;  
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
